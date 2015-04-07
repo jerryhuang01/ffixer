@@ -18,6 +18,8 @@
 // @include        http://facebook.tld/*
 // @include        https://*.facebook.tld/*
 // @include        https://facebook.tld/*
+// @include        http://l.facebook.com/*
+// @include        https://*.facebook.com/photo.php*
 // @exclude        http://*.channel.facebook.tld/*
 // @exclude        http://static.*.facebook.tld/*
 // @exclude        http://*.facebook.tld/ai.php*
