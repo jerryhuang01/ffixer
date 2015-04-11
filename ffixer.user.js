@@ -24,6 +24,10 @@
 // @exclude        https://*.facebook.tld/plugins/*
 // @exclude        http://*.facebook.tld/connect/*
 // @exclude        https://*.facebook.tld/connect/*
+// @grant          GM_getValue
+// @grant          GM_setValue
+// @grant          GM_xmlhttpRequest
+// @grant          unsafeWindow
 // @author      Vaughan Chandler
 // @timestamp   1359222040 
 // @version     2.3.2.1
