@@ -24,6 +24,7 @@
 // @exclude        https://*.facebook.tld/plugins/*
 // @exclude        http://*.facebook.tld/connect/*
 // @exclude        https://*.facebook.tld/connect/*
+// @run-at         document-start
 // @grant          GM_getValue
 // @grant          GM_setValue
 // @grant          GM_xmlhttpRequest
