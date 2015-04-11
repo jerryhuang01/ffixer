@@ -2,36 +2,10 @@
 // @name        FFixer
 // @namespace   http://userscripts.org/scripts/show/156745
 // @description Enhancements for Facebook: bigger profile pictures and photos, easier viewing of albums, links to download videos, showing people's age and sign, google calendar integration, keyboard shortcuts & more. Compatible with new Facebook and fully customizable!
-/*
-// @include     http://facebook.com/*
-// @include     http://*.facebook.com/*
-// @include     https://facebook.com/*
-// @include     https://*.facebook.com/*
-// @exclude     http://*.facebook.com/plugins/*
-// @exclude     https://*.facebook.com/plugins/*
-*/
-// @include        http://*.facebook.com/*
-// @include        http://facebook.com/*
-// @include        https://*.facebook.com/*
-// @include        https://facebook.com/*
-// @include        http://*.facebook.tld/*
-// @include        http://facebook.tld/*
-// @include        https://*.facebook.tld/*
-// @include        https://facebook.tld/*
-// @include        http://l.facebook.com/*
-// @include        https://*.facebook.com/photo.php*
-// @exclude        http://*.channel.facebook.tld/*
-// @exclude        http://static.*.facebook.tld/*
-// @exclude        http://*.facebook.tld/ai.php*
-// @exclude        http://*.facebook.tld/pagelet/generic.php/pagelet/home/morestories.php*
-// @exclude        https://*.channel.facebook.tld/*
-// @exclude        https://static.*.facebook.tld/*
-// @exclude        https://*.facebook.tld/ai.php*
-// @exclude        https://*.facebook.tld/pagelet/generic.php/pagelet/home/morestories.php*
-// @exclude        http://*.facebook.tld/plugins/*
-// @exclude        https://*.facebook.tld/plugins/*
-// @exclude        http://*.facebook.tld/connect/*
-// @exclude        https://*.facebook.tld/connect/*
+// @include        /^https?:\/\/facebook\.com\//
+// @include        /^https?:\/\/[^\/]*\.facebook\.com\//
+// @exclude        /^https?:\/\/[^\/]*(channel|static)[^\/]*facebook\.com\//
+// @exclude        /^https?:\/\/[^\/]*facebook\.com\/.*(ai.php|morestories.php|generic.php|xti.php|plugins|connect|ajax|sound_iframe|l.php\?u)/
 // @author      Vaughan Chandler
 // @timestamp   1359222040 
 // @version     2.3.2.1
